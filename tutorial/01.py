@@ -19,17 +19,19 @@ geburtsdatum = month + str(jahre)
 
 print(vorname.lower() + nachname.upper())
 
-print("Heir wird der Vorname buchstabiert: ")
+print("Hier wird der Vorname buchstabiert: ")
 for x in range(0,len(vorname)-1):
     print(vorname[x].upper())
     
     
-print("Hier wird die Index des Vorname gegeben")
+print("Hier wird der Index des Vorname gegeben")
 print(vorname.upper().index("U"))
 print(vorname.upper().index("B"))
 print(vorname.index("A"))
 print(vorname.upper().index("L"))
 print(vorname.upper().index("D"))
+
+
 
 #Wir probieren boolean Variable aus.
 a = True
@@ -60,3 +62,10 @@ Usage: thingy [OPTIONS]
      -h                        Display this usage message
      -H hostname               Hostname to connect to
 """)
+
+print("""\
+1.Erste Zeile
+      2.Zweite Zeile
+3.Dritte Zeile
+      """)
+      
